@@ -1,3 +1,15 @@
 *{
     border: solid 1px red;
 }
+header{
+    background-color: aquamarine;
+}
+nav{
+    background-color: pink;
+}
+section{
+    background-color: antiquewhite;
+}
+footer{
+    background-color: aqua;
+}
