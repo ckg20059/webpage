@@ -4,6 +4,18 @@
 <head>
   <meta charset="UTF-8">
   <script>
+    function showPage1(){
+      item=document.getElementById("Page1")
+      item.style.display="block"
+      item=document.getElementById("Page2")
+      item.style.display="none"
+    }
+    function showPage2(){
+      item=document.getElementById("Page1")
+      item.style.display="none"
+      item=document.getElementById("Page2")
+      item.style.display="block"
+    }
   </script>
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -14,12 +26,12 @@
   </header>
   <nav>
     <ul>
-      <li>WEBデザイン</li>
+      <li onclick="showPage1()">java script</li>
+      <li onclick="showPage2()">WEBデザイン</li>
       <li>MOS Excel</li>
-      <li>java script</li>
     </ul>
   </nav>
-  <section>
+  <section id="Page1">
     <h1>WEBデザイン</h1>
     <p>
       WEBデザインをHTMLとCSSを使って学びました。
@@ -30,7 +42,7 @@
       
     </div>
   </section>
-  <section>
+  <section id="Page2">
     <h1>javascript</h1>
     <p>
       プログラムでπの計算をしたり、三角形を回転させたりしました。

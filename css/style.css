@@ -1,15 +1,36 @@
 *{
-    border: solid 1px red;
+    margin: 0;
+    padding: 0;
+}
+header,section,nav,footer{
+    display: block;
+}
+body{
+    background-color: cyan;
 }
 header{
+    height: 60px;
+    width: 1000px;
     background-color: aquamarine;
 }
 nav{
-    background-color: pink;
+    float: left;
+    width: 200px;
+    background-color: aqua;
 }
 section{
-    background-color: antiquewhite;
+    float: left;
+    width: 795px;
+    background-color: aquamarine;
 }
 footer{
+    clear: both;
+    width:1000px;
     background-color: aqua;
+}
+#Page1{
+    display:block; 
+}
+#Page2{
+    display: none;
 }
